@@ -32,7 +32,7 @@ class Integrated_Model:
         self.qi=None
         self.w=None
         self.c=None
-        self.yj=None
+        self.yj=None 
         
     def read_u_data(self,total_location):
         with open(total_location,'r') as f:
