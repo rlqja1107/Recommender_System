@@ -23,10 +23,7 @@ if __name__ =='__main__':
     ac.get_overall_mean(self_instance)
     start=timer()    
     RMSE_list=[]
-    #svd_pp.gradient_descent('../ml-100k/u1.base')
-#RMSE=svd_pp.predict('../ml-100k/u1.test')
-   # print("RMSE :"+str(RMSE))
-   # print("Time : ",timer()-start)
+
     for i in range(cf.k_fold):
         svd_pp.gradient_descent(cf.train_set_list[i])
         RMSE=svd_pp.predict(cf.test_set_list[i])
@@ -36,9 +33,7 @@ if __name__ =='__main__':
     print("Time : "+str(total_time))
     print("AVG RMSE : "+str(sum(RMSE_list)/len(RMSE_list)))
     
-#     if cf.save_or_not:
-#         cf.save_object("svd_pp_object.p",[svd_pp,RMSE_list,total_time])
-        
+
         
         
         
