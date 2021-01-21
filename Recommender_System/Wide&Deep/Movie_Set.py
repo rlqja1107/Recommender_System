@@ -5,7 +5,7 @@ from torch.utils.data import Dataset
 from sklearn import preprocessing 
 import patsy
 from torch.utils.data import Dataset
-import torch
+import torch 
 from timeit import default_timer as timer
 class Movie_Set(Dataset):
     
