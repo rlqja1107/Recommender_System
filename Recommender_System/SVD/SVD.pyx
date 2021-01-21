@@ -32,7 +32,7 @@ class SVD:
         self.qi=None
         
     def get_self_instance(self):
-        return self
+        return self 
         
     # init_setting including call function
     def init_setting(self,total_location):
