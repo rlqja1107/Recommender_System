@@ -1,7 +1,7 @@
 import torch
 
 default_device='cpu'
-
+ 
 def set_device_cuda(): 
         device='cuda' if torch.cuda.is_available() else 'cpu'
         assert device =='cuda', 'Cuda is not available'
