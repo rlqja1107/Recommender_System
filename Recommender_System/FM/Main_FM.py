@@ -22,3 +22,4 @@ rating_data=read_rating_1m()[:,:3]
 dataset=MovieLensDataSet(torch.tensor(rating_data).cuda(), config['is_classifier'])
 fm=FactorizationMachine(config).cuda()
 FactorizationMachine.run(fm,config,dataset)
+ 
