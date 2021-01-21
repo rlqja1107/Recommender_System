@@ -1,7 +1,7 @@
 # Collaborative Metric Learning  
 ## Implementation Term  
 2021-01-09 ~ 2021-01-17  
-## Main Library, Dataset
+## Main Library, Dataset  
 **Pytorch**, **[Movielens-1M](https://grouplens.org/datasets/movielens/1m/)**
 ## Code  
 **CML.py** : Class of CML including the related function and static method of running function(**run**)  
