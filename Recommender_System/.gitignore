@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+__pycache__
+build/temp.linux-x86_64-3.7
+*.c
+*.so
+*.p
+__init__.py
+ 
