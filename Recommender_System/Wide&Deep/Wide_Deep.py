@@ -3,7 +3,7 @@ import torch
 from timeit import default_timer as timer
 from sklearn.metrics import roc_auc_score
 
-
+ 
 class Wide_And_Deep(torch.nn.Module):
     def __init__(self,config):
         super(Wide_And_Deep,self).__init__()

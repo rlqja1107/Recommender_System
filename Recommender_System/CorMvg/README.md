@@ -1,7 +1,7 @@
 # K Nearest Neighborhood Using Similarity Matrix  
 ## Implementation Term  
 2020-12-28 ~ 2021-01-09  
-## Code   
+## Code    
 * Main_CorMvg.py : Main Executing Function  
 * CorMvg.pyx : Class File including to make similarity matrix and gradient descent in "fit" function.  
 ## Summary  

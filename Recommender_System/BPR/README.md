@@ -1,5 +1,5 @@
 # Bayesian Personalized Ranking Of Matrix Factorization(BPR)   
-## Implementation Term  
+## Implementation Term   
 2021-01-04 ~ 2021-01-08  
 ## Code  
 * Main_BPR_MF.py : Main Function  

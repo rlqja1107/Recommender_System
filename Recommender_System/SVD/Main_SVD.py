@@ -15,7 +15,7 @@ cf.change_dir('../ml-100k')
 n_user,n_movie,n_rating=cf.read_user_inform()
 
 svd=SVD(n_user,100,n_movie,0,0.1,20)
-
+ 
 self_instance=svd.get_self_instance()
 
 ac.read_u_data(self_instance,cf.dir_location+'/u.data')

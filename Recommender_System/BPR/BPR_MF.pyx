@@ -1,5 +1,5 @@
 
-import numpy as np
+import numpy as np 
 from timeit import default_timer as timer 
 from math import sqrt
 import pickle

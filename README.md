@@ -10,72 +10,31 @@ Recommender System, Graph Embedding
 Construct the Recommender Systems Using Graph Embedding Methodology   
 ## Process  
 * Every Friday Seminar at 10:00 a.m  
-<<<<<<< HEAD
-* KiBum Presentation Content : [CML](http://www.cs.cornell.edu/~ylongqi/paper/HsiehYCLBE17.pdf), [LINE](https://arxiv.org/pdf/1503.03578.pdf)  
-=======
-* KiBum Presentation Content : [CML(2021-01-15)](https://github.com/rlqja1107/Kaist_Recommender_System/blob/master/Netflix_Analysis/CML_%EA%B9%80%EA%B8%B0%EB%B2%94.pptx), [LINE](https://arxiv.org/pdf/1503.03578.pdf)   
+
+* KiBum Presentation Content : [CML(2021-01-15)](https://github.com/rlqja1107/Kaist_Recommender_System/blob/master/Recommender_System/CML_%EA%B9%80%EA%B8%B0%EB%B2%94.pptx), [LINE](https://arxiv.org/pdf/1503.03578.pdf)   
 
 
 
 | Term(2021) | Paper | Implementation |  
 | :---: | --- | :---: |   
-| 01-04 | [Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model](https://dl.acm.org/doi/pdf/10.1145/1401890.1401944) | [SVD](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/SVD), [SVD++](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/SVD_pp) |  
-| - | [MATRIX FACTORIZATION TECHNIQUES FOR RECOMMENDER SYSTEMS](https://datajobs.com/data-science-repo/Recommender-Systems-%5bNetflix%5d.pdf) | [KNN](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/CorMvg) |  
+| 01-04 | [Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model](https://dl.acm.org/doi/pdf/10.1145/1401890.1401944) | [SVD](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/SVD), [SVD++](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/SVD_pp) |  
+| - | [MATRIX FACTORIZATION TECHNIQUES FOR RECOMMENDER SYSTEMS](https://datajobs.com/data-science-repo/Recommender-Systems-%5bNetflix%5d.pdf) | [KNN](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/CorMvg) |  
 | - | [Probabilistic Matrix Factorization](https://papers.nips.cc/paper/2007/file/d7322ed717dedf1eb4e6e52a37ea7bcd-Paper.pdf) | |       
 | 01-08 | [Collaborative Filtering for Implicit Feedback Datasets](http://yifanhu.net/PUB/cf.pdf)| |   
-| - | [BPR: Bayesian Personalized Ranking from Implicit Feedback](https://arxiv.org/pdf/1205.2618.pdf)| [BPR](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/BPR) |  
-| 01-15 | [Collaborative Metric Learning](http://www.cs.cornell.edu/~ylongqi/paper/HsiehYCLBE17.pdf)| [CML](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/CML), [PPT Content](https://github.com/rlqja1107/Kaist_Recommender_System/blob/master/Netflix_Analysis/CML_%EA%B9%80%EA%B8%B0%EB%B2%94.pptx) |     
+| - | [BPR: Bayesian Personalized Ranking from Implicit Feedback](https://arxiv.org/pdf/1205.2618.pdf)| [BPR](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/BPR) |  
+| 01-15 | [Collaborative Metric Learning](http://www.cs.cornell.edu/~ylongqi/paper/HsiehYCLBE17.pdf)| [CML](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/CML), [PPT Content](https://github.com/rlqja1107/Kaist_Recommender_System/blob/master/Recommender_System/CML_%EA%B9%80%EA%B8%B0%EB%B2%94.pptx) |     
 | - | [Neural Collaborative Filtering](https://arxiv.org/pdf/1708.05031.pdf ) | |  
 | - | [AutoRec: Autoencoders Meet Collaborative Filtering](http://users.cecs.anu.edu.au/~u5098633/papers/www15.pdf) | |  
 | - | [Collaborative Deep Learning for Recommender Systems](http://www.wanghao.in/paper/KDD15_CDL.pdf) | |  
-| 01-22 | [Factorization Machines](https://ieeexplore.ieee.org/document/5694074) | [FM](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/FM)  |  
-| - | [Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792) | [Wide&Deep](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/Wide%26Deep) |  
+| 01-22 | [Factorization Machines](https://ieeexplore.ieee.org/document/5694074) | [FM](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/FM)  |  
+| - | [Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792) | [Wide&Deep](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/Wide%26Deep) |  
 | - | [SoRec: Social Recommendation Using Probabilistic Matrix Factorization](http://web.cs.ucla.edu/~yzsun/classes/2014Spring_CS7280/Papers/Recommendation/paper_cikm08_sorec_hao.pdf) | |    
 | - | [Recommender Systems with Social Regularization](https://dennyzhou.github.io/papers/RSR.pdf) | |    
 
->>>>>>> b427cdd431374591eaa6d93e439b14e195e66d80
 ## Library Or Useful Resource  
 * [Recommender System](https://github.com/jihoo-kim/awesome-RecSys)  
 * [Library of Analyzing The Netflix Data(Surprise)](https://github.com/NicolasHug/Surprise)  
 * [GNN Paper](https://github.com/thunlp/GNNPapers)  
 * [NRL Paper](https://github.com/thunlp/NRLPapers)  
 * [Library of Graph](https://pytorch-geometric.readthedocs.io/en/latest/)
-<<<<<<< HEAD
-## Week List  
-### 1. First Week  
-***  
-**Using Explicit Feedback By Analyzing Netflix Data Set For Recommending Movie**  
-#### Implementation  
-* [SVD](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/SVD)  
-* [SVD++](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/SVD_pp)  
-* [KNN Using Similarity Matrix](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/CorMvg)  
-#### Reference  
-* [Netflix Using MF Overview](https://dl.acm.org/doi/pdf/10.1145/1401890.1401944)  
-* [Probabilistic Matrix Factorization(PMF)](https://papers.nips.cc/paper/2007/file/d7322ed717dedf1eb4e6e52a37ea7bcd-Paper.pdf)  
-* [Factorization Meets the Neighborhood : a Multifaceted Collaborative Filtering Model](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf
-)  
-### 2. Second Week  
-***  
-**Based on Implicit Feedback, Recommend to better appropriate items to each user**  
-**Applying the Bayesian optimization criterion for recommending personalized ranking**  
 
-#### Implementation  
-* [BPR Using Matrix Factorization](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/BPR)  
-#### Reference  
-* [Collaborative Filtering For Implicit Feedback Datasets(OCCF)](http://yifanhu.net/PUB/cf.pdf )
-* [Bayesian Personalized Ranking From Implicit Feedback(BPR)](https://arxiv.org/ftp/arxiv/papers/1205/1205.2618.pdf)  
-   
-### 3. Third Week  
-***  
-**Using Neural Network, Consider the Simliarity of Object e.g)Item, User**  
-#### Implementation  
-* [Collaborative Metric Learning(CML)](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Netflix_Analysis/CML)  
-#### Reference  
-* [Collaborative Metric Learning(CML](http://www.cs.cornell.edu/~ylongqi/paper/HsiehYCLBE17.pdf)  
-* [Neural Collaborative Filtering(NCF)](https://arxiv.org/pdf/1708.05031.pdf)  
-* [AutroRec](http://users.cecs.anu.edu.au/~u5098633/papers/www15.pdf)  
-* [Collaborative Deep Learning(CDL)](http://www.wanghao.in/paper/KDD15_CDL.pdf)  
-=======
-
->>>>>>> b427cdd431374591eaa6d93e439b14e195e66d80
- 

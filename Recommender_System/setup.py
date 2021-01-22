@@ -6,7 +6,7 @@ import numpy
 
 """
 setup
-"""
+""" 
 ext=".pyx"
 extension=[]
 extension.append(Extension(name="CorMvg",sources=["CorMvg/CorMvg"+ext],include_dirs=[numpy.get_include()]))

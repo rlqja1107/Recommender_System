@@ -1,4 +1,4 @@
-import os
+import os 
 from Movie_Set import Movie_Set
 from Wide_Deep import Wide_And_Deep
 os.environ['CUDA_VISIBLE_DEVICES']='2'
