@@ -3,11 +3,27 @@ cimport numpy as np
 import numpy as np
 from pathlib import Path
 from sklearn.model_selection import train_test_split
-<<<<<<< HEAD:Recommender_System/algo_common_func.pyx
+from scipy.sparse import coo_matrix,csr_matrix
 
-=======
+"""
+epinions_dataset 
+"""
+def r_epinion_trust(path='../epinions_dataset/trust_data.txt'):
+        """
+        read epinions trust data and substitute the c_ik to trust value incorporating local authority
+        return - coo_matrix of trust data
+        """
+        trust_data=np.loadtxt(path,delimiter=' ',dtype=np.float)
+        row=trust_data[:,0]-1
+        col=trust_data[:,1]-1
+        t=trust_data[:,2]
+#        
+#         coo_mtx=coo_matrix((t,(row,col)),shape=(n_user,n_user),dtype=np.float)
+#         in_degree=np.asarray(coo_mtx.sum(axis=0))
+#         out_degree=np.asarray(coo_mtx.sum(axis=1))
+
+        return row, col, t
  
->>>>>>> b427cdd431374591eaa6d93e439b14e195e66d80:Netflix_Analysis/algo_common_func.pyx
 """
 ml-1m ... 
 """

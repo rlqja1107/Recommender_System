@@ -36,9 +36,4 @@ class MovieLensDataSet(torch.utils.data.Dataset):
                 """
                 return self.user_item[index], self.target[index]
         
-        
-#         def transform_target(self,data):
-#                 data[data>=3]=1
-#                 data[data<3]=0
-#                 return data
                 
