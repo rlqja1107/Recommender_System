@@ -8,8 +8,11 @@
 ### BPR Learning Algorithm  
 For BPR Optimization Criterion, I treid to maximize the **posterior**, ln(&rcy;(&theta;|&lt;<sub>u</sub>) = &sum;<sub>(u,i,j)&isin;D<sub>s</sub></sub> ln(&sigma;(&xscr;<sub>uij</sub>) - &lambda;<sub>&theta;</sub>&lowast; &Vert;&theta;&Vert;<sup>2</sup>. This equation is derived by **MLE**   
 ln(p(&theta;|&gt;<sub>u</sub>))   
-&equals; ln(p(&gt;<sub>u</sub>|&theta;)&lowast;p(&theta;)  <- Using Bayesian  
-&equals; ln &lpar; &prod;<sub>(u,i,j)&isin;D<sub>s</sub></sub> &sigma;(&xscr;<sub>uij</sub>)&rpar;+ln(p(&theta;))  <- Using MLE
+&equals; ln(p(&gt;<sub>u</sub>|&theta;)&lowast;p(&theta;) <- Using Bayesian   
+
+
+&equals; ln &lpar; &prod;<sub>(u,i,j)&isin;D<sub>s</sub></sub> &sigma;(&xscr;<sub>uij</sub>)&rpar;+ln(p(&theta;))  <- Using MLE   
+
 &equals; &sum;<sub>(u,i,j)&isin;D<sub>s</sub></sub> ln(&sigma;(&xscr;<sub>uij</sub>)) - &lambda;<sub>&theta;</sub>&lowast; &Vert;&theta;&Vert;<sup>2</sup> &lowast;   
 
  Applying the sigmoid to make a term differentiable( &sigma;(x)= 1/(1+&iecy;<sup>-&xscr;</sup> )), We can use the **stochastic gradient descent** by directing to **maximum** of objective function for finding the better parameter. You can easily get the optimizing model for BPR by derivating above equation. Then, the equation of **Stochastic Gradient Descent** is derived.   
