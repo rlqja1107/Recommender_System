@@ -28,7 +28,7 @@ Construct the Recommender Systems Using Graph Embedding Methodology
 | - | [Collaborative Deep Learning for Recommender Systems](http://www.wanghao.in/paper/KDD15_CDL.pdf) | |  
 | 01-22 | [Factorization Machines](https://ieeexplore.ieee.org/document/5694074) | [FM](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/FM)  |  
 | - | [Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792) | [Wide&Deep](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/Wide%26Deep) |  
-| - | [SoRec: Social Recommendation Using Probabilistic Matrix Factorization](http://web.cs.ucla.edu/~yzsun/classes/2014Spring_CS7280/Papers/Recommendation/paper_cikm08_sorec_hao.pdf) | |    
+| - | [SoRec: Social Recommendation Using Probabilistic Matrix Factorization](http://web.cs.ucla.edu/~yzsun/classes/2014Spring_CS7280/Papers/Recommendation/paper_cikm08_sorec_hao.pdf) | [Sorec](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/Sorec) |    
 | - | [Recommender Systems with Social Regularization](https://dennyzhou.github.io/papers/RSR.pdf) | |    
 
 ## Library Or Useful Resource  
