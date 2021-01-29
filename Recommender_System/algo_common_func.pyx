@@ -23,7 +23,11 @@ def r_epinion_trust(path='../epinions_dataset/trust_data.txt'):
 #         out_degree=np.asarray(coo_mtx.sum(axis=1))
 
         return row, col, t
+<<<<<<< HEAD
  
+=======
+  
+>>>>>>> bf62cc590490113bfcb8e4b99066e2e419d16cf9
 """
 ml-1m ... 
 """

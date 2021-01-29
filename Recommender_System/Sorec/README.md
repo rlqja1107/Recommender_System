@@ -1,7 +1,11 @@
 # Social Recommendation Using Probabilistic Matrix Factorization(Sorec)  
 ## Term  
 2021-01-16 ~ 2021-01-23  
+<<<<<<< HEAD
 ## Model  
+=======
+## Model   
+>>>>>>> bf62cc590490113bfcb8e4b99066e2e419d16cf9
 ## Result  
 | Epoch | MAE(Mean Absolute Error) | Time per epoch(sec) |
 |:---:|:---:|:---:|
