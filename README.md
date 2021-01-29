@@ -11,10 +11,10 @@ Construct the Recommender Systems Using Graph Embedding Methodology
 ## Process  
 * Every Friday Seminar at 10:00 a.m  
 
-* KiBum Presentation Content : [CML(2021-01-15)](https://github.com/rlqja1107/Kaist_Recommender_System/blob/master/Recommender_System/CML_%EA%B9%80%EA%B8%B0%EB%B2%94.pptx), [LINE](https://arxiv.org/pdf/1503.03578.pdf)   
+* KiBum Presentation Content : [CML(2021-01-15)](https://github.com/rlqja1107/Kaist_Recommender_System/blob/master/Recommender_System/CML_%EA%B9%80%EA%B8%B0%EB%B2%94.pptx), [LINE](https://arxiv.org/pdf/1503.03578.pdf)    
 
 
-
+#### Recommendation System  
 | Term(2021) | Paper | Implementation |  
 | :---: | --- | :---: |   
 | 01-04 | [Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model](https://dl.acm.org/doi/pdf/10.1145/1401890.1401944) | [SVD](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/SVD), [SVD++](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/SVD_pp) |  
@@ -30,6 +30,11 @@ Construct the Recommender Systems Using Graph Embedding Methodology
 | - | [Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792) | [Wide&Deep](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/Wide%26Deep) |  
 | - | [SoRec: Social Recommendation Using Probabilistic Matrix Factorization](http://web.cs.ucla.edu/~yzsun/classes/2014Spring_CS7280/Papers/Recommendation/paper_cikm08_sorec_hao.pdf) | [Sorec](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/Sorec) |    
 | - | [Recommender Systems with Social Regularization](https://dennyzhou.github.io/papers/RSR.pdf) | |    
+
+---  
+#### Graph  
+| Term(2021) | Paper | Implementation |  
+| :---: | --- | :---: |   
 | 01-29 | [Deep Neural Networks for Youtube Recommendation](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf) | |  
 | - | [DeepWalk:Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf) | |  
 | - | [node2vec:Scalable Feature Learning for Networks](https://arxiv.org/pdf/1607.00653.pdf) | [Node2Vec](https://github.com/rlqja1107/Recommender_System/tree/master/Graph/node2vec) |  
