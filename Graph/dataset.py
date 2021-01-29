@@ -2,16 +2,15 @@ import numpy as np
 import pickle
 import networkx as nx
 import torch
-<<<<<<< HEAD
 import networkx as nx
+
+
 def load_graph(data_name='../data/ind.cora'):
         graph=None
         with open(data_name+'.graph','rb') as f:
                 data=pickle.load(f)
                 graph=nx.Graph(data)
         return graph
-=======
->>>>>>> bf62cc590490113bfcb8e4b99066e2e419d16cf9
 
 def load_data(data_name='../data/ind.cora'):
         objects=[]
