@@ -30,7 +30,7 @@ Construct the Recommender Systems Using Graph Embedding Methodology
 | - | [Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792) | [Wide&Deep](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/Wide%26Deep) |  
 | - | [SoRec: Social Recommendation Using Probabilistic Matrix Factorization](http://web.cs.ucla.edu/~yzsun/classes/2014Spring_CS7280/Papers/Recommendation/paper_cikm08_sorec_hao.pdf) | [Sorec](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/Sorec) |    
 | - | [Recommender Systems with Social Regularization](https://dennyzhou.github.io/papers/RSR.pdf) | |    
-| - | [Deep Neural Networks for Youtube Recommendation](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf) | |  
+| 01-29 | [Deep Neural Networks for Youtube Recommendation](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf) | |  
 | - | [DeepWalk:Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf) | |  
 | - | [node2vec:Scalable Feature Learning for Networks](https://arxiv.org/pdf/1607.00653.pdf) | [Node2Vec](https://github.com/rlqja1107/Recommender_System/tree/master/Graph/node2vec) |  
 | - | [Semi-Supervised Classification With Graph Convolutional Networks](https://arxiv.org/abs/1809.10341) | [GCN](https://github.com/rlqja1107/Recommender_System/tree/master/Graph/GCN) |  
