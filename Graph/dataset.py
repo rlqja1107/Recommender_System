@@ -3,7 +3,7 @@ import pickle
 import networkx as nx
 import torch
 import networkx as nx
-
+ 
 
 def load_graph(data_name='../data/ind.cora'):
         graph=None
