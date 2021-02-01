@@ -6,6 +6,7 @@ from MovieLens1M import MovieLensDataSet
 from algo_common_func import read_rating_1m
 import os 
 from FM import FactorizationMachine
+import torch
 
 if cuda_is_avail():
     os.environ["CUDA_VISIBLE_DEVICES"]='3'
