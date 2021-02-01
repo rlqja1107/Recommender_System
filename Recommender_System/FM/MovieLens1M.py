@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 import torch
  
-class MovieLensDataSet(torch.utils.data.Dataset):
+class MovieLensDataSet(torch.utils.data.Dataset): 
         """
         MovieLens 1M Dataset Inherited by torch.utils.data.Dataset
         feature_dim : [user feature dim, movie feature dim] 
