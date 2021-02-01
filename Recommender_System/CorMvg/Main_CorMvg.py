@@ -7,7 +7,7 @@ from timeit import default_timer as timer
 from CorMvg import Neighbor_cor
 import Call_Function as cf
 import pickle
-import algo_common_func as ac
+import algo_common_func as ac 
 
 
 if __name__ == '__main__':
