@@ -4,7 +4,7 @@ from math import sqrt
 import pickle
 cimport numpy as np
 
-# In[5]:
+
 
 
 class Integrated_Model:
