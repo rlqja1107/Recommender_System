@@ -157,4 +157,5 @@ class node2vec(object):
         model=Word2Vec(sentences=walks, size=graph.dim,window=graph.window,min_count=0,sg=1,workers=8,iter=1)
         print("SGD Finish, Time : {:.4f}".format(timer()-start))
         return model.wv
+
     
