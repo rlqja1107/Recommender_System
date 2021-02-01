@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Netflix Recommender System  
 ## Duration  
 2020-12-28 ~   
@@ -38,4 +38,4 @@ These jupyter notebook files are a jupyter file corresponding to *.pyx file that
 ## Notice  
 1. Integrated Model is not fully implemented. For implementing successfully this model, Code should be corrected. 
 2. In some case, the running time for training would be taken longer as using the **batch** gradient descent.  
->>>>>>> 655920bae508f642bef71ae4829b3088e9c02882
+
