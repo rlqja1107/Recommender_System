@@ -6,7 +6,7 @@ from sklearn import preprocessing
 import patsy
 from torch.utils.data import Dataset
 import torch 
-from timeit import default_timer as timer
+from timeit import default_timer as timer 
 class Movie_Set(Dataset):
     
     def __init__(self,movie_path='../ml-1m/movies.dat',rating_path='../ml-1m/ratings.dat',user_path='../ml-1m/users.dat'):
