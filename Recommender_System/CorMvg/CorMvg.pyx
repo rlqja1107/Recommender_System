@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 import numpy as np
-cimport numpy as np
+cimport numpy as np 
 from timeit import default_timer as timer 
 from math import sqrt
 from scipy.sparse import csr_matrix
