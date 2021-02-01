@@ -7,7 +7,7 @@ from sklearn.metrics import roc_auc_score
 class Wide_And_Deep(torch.nn.Module):
     def __init__(self,config):
         super(Wide_And_Deep,self).__init__()
-        self.loss_func=torch.nn.BCELoss()
+        self.loss_func=torch.nn.BCELoss() 
         self.epoch=config['epoch']
         self.batch_size=config['batch_size']
         self.emb_size=config['emb_size']
