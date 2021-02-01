@@ -7,7 +7,7 @@ from math import sqrt
 import pickle
 import Call_Function as cf
 from SVD import SVD
-import algo_common_func as ac
+import algo_common_func as ac 
 
 #default dir : './ml-100k'
 cf.change_dir('../ml-100k')
