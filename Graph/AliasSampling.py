@@ -1,6 +1,6 @@
 import random
 
-
+ 
 def neg_sampling(neg_sample_size, node_sampler, src, dst):
     neg_sample = 0
     neg_list = []
