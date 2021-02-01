@@ -14,7 +14,7 @@ class Prediction(object):
         return Pipeline(steps=[("sc", StandardScaler()), ("clf", lr_clf)])    
     
         
-    
+     
     def load_label(path='../data/ind.cora.y'):
         label=None
         with open(path,'rb') as file:
