@@ -1,4 +1,4 @@
-# Bayesian Personalized Ranking Of Matrix Factorization(BPR)   
+# Bayesian Personalized Ranking Of Matrix Factorization(BPR)    
 ## Implementation Term   
 2021-01-04 ~ 2021-01-08  
 ## Code  
