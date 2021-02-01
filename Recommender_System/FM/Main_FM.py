@@ -4,7 +4,7 @@ sys.path.append('..')
 from util import cuda_is_avail
 from MovieLens1M import MovieLensDataSet
 from algo_common_func import read_rating_1m
-import os
+import os 
 from FM import FactorizationMachine
 
 if cuda_is_avail():
