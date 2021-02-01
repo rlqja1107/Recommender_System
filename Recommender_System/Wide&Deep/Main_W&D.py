@@ -7,7 +7,7 @@ dataset.preprocess()
 dataset.to_tensor()
 
 config={
-    'epoch':100,
+    'epoch':100, 
     'batch_size':1024,
     'emb_size':32,
     'users_emb':dataset.users_emb,
