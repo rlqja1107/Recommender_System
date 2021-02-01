@@ -6,7 +6,7 @@ config={'r':10,
         'dim':128,
         'p':1,
         'q':1,
-        'graph_path':'../data/ind.cora',
+        'graph_path':'../data/ind.cora', 
         'window':10
 }
 graph=node2vec(config)
