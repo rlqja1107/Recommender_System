@@ -10,7 +10,11 @@ from timeit import default_timer as timer
 
 class node2vec(object):
     def __init__(self,config):
+<<<<<<< HEAD
         self.graph=load_graph(config['graph_path'],weight=False).to_undirected()
+=======
+        self.graph=load_graph(config['graph_path']).to_undirected()
+>>>>>>> 655920bae508f642bef71ae4829b3088e9c02882
         self.r=config['r']
         self.walk_length=config['walk_length']
         self.dim=config['dim']
@@ -130,7 +134,10 @@ class node2vec(object):
         n=len(K)
         node=int(np.floor(np.random.rand()*n))
         return node if np.random.rand()<U[node] else K[node]
+<<<<<<< HEAD
 
+=======
+>>>>>>> 655920bae508f642bef71ae4829b3088e9c02882
     def make_string(self,walks):
         walk=[]
         for i in walks:
