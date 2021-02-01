@@ -1,4 +1,4 @@
-# Collaborative Metric Learning  
+# Collaborative Metric Learning   
 ## Implementation Term  
 2021-01-09 ~ 2021-01-17  
 ## Main Library, Dataset  
