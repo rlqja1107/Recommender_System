@@ -3,7 +3,6 @@ import pickle
 import networkx as nx
 import torch
 import networkx as nx
-<<<<<<< HEAD
 from pathlib import Path
 
 def load_graph(data_name='../data/ind.cora', weight=False):
@@ -28,27 +27,8 @@ def load_data(data_name='../data/ind.cora'):
                 suffix[index] = data_name+'.'+s
         for s in suffix:
                 objects.append(pickle.load(open(Path(s),'rb'),encoding='latin1'))
-=======
  
 
-def load_graph(data_name='../data/ind.cora'):
-        graph=None
-        with open(data_name+'.graph','rb') as f:
-                data=pickle.load(f)
-                graph=nx.Graph(data)
-        return graph
-
-def load_data(data_name='../data/ind.cora'):
-        objects=[]
-        suffix=['x','y','allx','ally','tx','ty','graph']
-        
-        # rename
-        for index,s in enumerate(suffix):
-                suffix[index]=data_name+'.'+s
-                
-        for s in suffix:
-                objects.append(pickle.load(open(s,'rb'),encoding='latin1'))
->>>>>>> 655920bae508f642bef71ae4829b3088e9c02882
         x,y,allx,ally,tx,ty,graph=objects
         x,allx,tx=x.toarray(),allx.toarray(),tx.toarray()
         test_index=[]
