@@ -32,7 +32,7 @@ class FactorizationMachine(torch.nn.Module):
         user_item=user_item+self.offset
         linear_total=torch.sum(self.linear_emb(user_item),dim=1)+self.w_0
         # Quad sum
-        x=self.quad_emb(user_item)
+        x=self.quad_emb(user_item) 
         square_of_sum=torch.sum(x,dim=1)**2
         sum_of_square=torch.sum(x**2,dim=1)
         cal=square_of_sum-sum_of_square
