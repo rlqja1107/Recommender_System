@@ -16,7 +16,7 @@ class node2vec(object):
         self.graph=load_graph(config['graph_path']).to_undirected()
 >>>>>>> 655920bae508f642bef71ae4829b3088e9c02882
         self.r=config['r']
-        self.walk_length=config['walk_length']
+        self.walk_length=config['walk_length'] 
         self.dim=config['dim']
         self.p=config['p']
         self.q=config['q']
