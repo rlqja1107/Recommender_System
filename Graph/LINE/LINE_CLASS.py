@@ -6,6 +6,8 @@ import numpy as np
 from copy import deepcopy
 from Graph.AliasSampling import AliasGeneration, batch_data
 from timeit import default_timer as timer
+from tensorboardX import SummaryWriter
+import os
 
 
 class Line(torch.nn.Module):
@@ -83,6 +85,10 @@ class Line(torch.nn.Module):
 
     @staticmethod
     def run(model):
+        log_dir = os.path.join('line_citeseer')
+        if not os.path.exists(log_dir):
+            os.makedirs(log_dir)
+        writer = SummaryWriter(log_dir)
         batch_range = int(len(model.edge_dist) / model.batch_size)
         optimizer = torch.optim.SGD(model.parameters(), lr=model.lr)
         for e in range(model.epoch):
@@ -98,6 +104,7 @@ class Line(torch.nn.Module):
                 loss.backward()
                 optimizer.step()
                 total_loss += loss.item()
+            writer.add_scalars('loss', {'loss': total_loss}, e)
             print("Epoch : {:d}, loss : {:.4f}, Time : {:.4f}".format(e+1, total_loss, timer()-start))
-
+        writer.close()
 
