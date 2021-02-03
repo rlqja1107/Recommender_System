@@ -1,11 +1,15 @@
-import sys 
-sys.path.append('..')
+
+
+import os
+import sys
+sys.path.append('/home/kibum/recommender_system/Recommender_System')
+from CML import CML
 from pathlib import Path
 from algo_common_func import split_rating
 import torch
 from util import set_device_cuda
-import os
-from CML import CML
+
+
 # Set GPU number 
 os.environ["CUDA_VISIBLE_DEVICES"]="3"
 rating_path=Path('..')/'ml-1m'/'ratings.dat'
