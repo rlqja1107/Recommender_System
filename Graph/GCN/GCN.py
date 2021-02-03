@@ -2,7 +2,6 @@ import sys
 sys.path.append('..')
 from dataset import load_data
 import torch
-import pickle 
 import numpy as np
 from math import sqrt
 import torch.nn.functional as F
@@ -14,13 +13,10 @@ class GCNLayer(torch.nn.Module):
     """
     GCN Hidden Layer
     """
-    def __init__(self, input_dim,output_dim,activation=True):
-        super(GCNLayer, self).__init__()
     def __init__(self,input_dim,output_dim,activation=True):
         super(GCNLayer,self).__init__()
         self.linear=torch.nn.Linear(input_dim,output_dim)
-        glort_beng=sqrt(6)/sqrt(input_dim+output_dim)
-        self.linear.weight.data.uniform_(-glort_beng,glort_beng).float()
+        self.linear.weight.data = (self.linear.weight.data.uniform_(-0.5, 0.5)/input_dim).float()
         self.activation=torch.nn.ReLU() if activation else None
             
     def forward(self,input_data):
