@@ -1,5 +1,8 @@
-from Sorec import Sorec
 
+from Sorec import Sorec
+# when run time
+import os
+os.chdir('/home/kibum/recommender_system/Recommender_System/Sorec')
 config={'lamb_c':10,
        'lambda_':0.001,
        "n_user":49290,
