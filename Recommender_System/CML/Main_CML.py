@@ -1,22 +1,19 @@
-
-
-import os
 import sys
-sys.path.append('/home/kibum/recommender_system/Recommender_System')
+import os
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('__file__'))))
 from CML import CML
 from pathlib import Path
 from algo_common_func import split_rating
-import torch
-from util import set_device_cuda
+
 
 
 # Set GPU number 
-os.environ["CUDA_VISIBLE_DEVICES"]="3"
+os.environ["CUDA_VISIBLE_DEVICES"]="1"
 rating_path=Path('..')/'ml-1m'/'ratings.dat'
 # reading raw  data
 train_set, test_set, n_user, n_item=split_rating(rating_path)
-config={'n_user':n_item, 
-        'n_item':n_user, 
+config={'n_user':n_user,
+        'n_item':n_item,
         'n_dim':64, 
         'margin':0.5,
         'epoch':500,
