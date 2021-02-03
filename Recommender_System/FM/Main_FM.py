@@ -1,6 +1,7 @@
 import sys
-sys.path.append('..')
-
+import os
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('__file__'))))
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('__file__')))+'/FM')
 from util import cuda_is_avail
 from MovieLens1M import MovieLensDataSet
 from algo_common_func import read_rating_1m
