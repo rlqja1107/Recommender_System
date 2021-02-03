@@ -101,7 +101,6 @@ class BPR_MF:
                 
                 bi[i_id]+=lr*(sigmoid-reg*bi[i_id])
                 bi[j_id]+=lr*(sigmoid-reg*bi[j_id])
-        print("Count "+str(count))
         return pu, q,bi
     
 
