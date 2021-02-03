@@ -23,11 +23,7 @@ def r_epinion_trust(path='../epinions_dataset/trust_data.txt'):
 #         out_degree=np.asarray(coo_mtx.sum(axis=1))
 
         return row, col, t
-<<<<<<< HEAD
- 
-=======
-  
->>>>>>> bf62cc590490113bfcb8e4b99066e2e419d16cf9
+
 """
 ml-1m ... 
 """
@@ -75,8 +71,7 @@ def get_overall_mean(self):
         self.overall_mean=total_sum/non_zero_count
         print("Time of getting overall mean : ",timer()-start)
         
-def read_train_set_csr(self,train_location):
-        print("good")
+
 
 def read_train_set(self,train_location):
         cdef np.ndarray[np.int_t,ndim=2] t_rating_matrix=np.zeros((self.n_user,self.n_movie),np.int)
