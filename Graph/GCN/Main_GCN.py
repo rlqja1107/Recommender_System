@@ -1,10 +1,8 @@
-import os
-os.chdir('/home/kibum/recommender_system/Graph/GCN')
+
 import sys
 sys.path.append('..')
 from dataset import load_data
 from GCN import GCN
-
 
 adj, feature_cat,train_label,test_label,valid_label, train_msk, test_msk, valid_msk, label=load_data()
 config={
@@ -14,11 +12,6 @@ config={
     'output_l2_dim':train_label.shape[1],
     'dropout':0.5,
     'lr':0.01
-}
-
-gcn=GCN(config).cuda()
-GCN.run(gcn,train_msk,valid_msk,test_msk,label,adj,feature_cat)
-    
 }
 gcn=GCN(config).cuda()
 GCN.run(gcn,train_msk,valid_msk,test_msk,label,adj,feature_cat)
