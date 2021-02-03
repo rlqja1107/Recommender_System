@@ -5,12 +5,8 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('__file__'))))
 import numpy as np
 from timeit import default_timer as timer 
 import Call_Function as cf
-from SVD import SVD
 import algo_common_func as ac
-
 from BPR_MF import BPR_MF
-
-
 #default dir : './ml-100k'
 cf.change_dir('../ml-100k')
 
@@ -34,6 +30,4 @@ print("Time : ",time)
 
 
 
-# if cf.save_or_not:
-#     cf.save_object("svd_object.p",[svd,RMSE_list,time,avg_RMSE])
 
