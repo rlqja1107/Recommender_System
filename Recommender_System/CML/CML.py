@@ -63,6 +63,7 @@ class CML(torch.nn.Module):
                 loader=DataLoader(dataset,batch_size=model.batch_size, shuffle=True)
                 model.train()
                 start=timer()
+                print("good")
                 for index, batch in enumerate(loader):
                         user=batch[0]
                         item=batch[1]
