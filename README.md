@@ -1,6 +1,6 @@
 # Kaist Internship Program  
 ## Laborartory  
-* Data Science and Artificial Intelligence Laboratory (DSAIL)[http://dsail.kaist.ac.kr]  
+* Data Science and Artificial Intelligence Laboratory [DSAIL](http://dsail.kaist.ac.kr)  
 ## Duration  
 2020-12-28~202.2.19
 ## Subject  
