@@ -1,4 +1,5 @@
-# Kaist Internship Program  
+# Kaist Internship Program     
+<img width="520" alt="DSAIL" src="https://user-images.githubusercontent.com/55014424/107319695-ad71c680-6ae2-11eb-8d78-3fcc3bfdce95.png">   
 ## Laborartory  
 * Data Science and Artificial Intelligence Laboratory [DSAIL](http://dsail.kaist.ac.kr)  
 ## Duration  
@@ -31,6 +32,7 @@ Construct the Recommender Systems Using Graph Embedding Methodology
 | - | [SoRec: Social Recommendation Using Probabilistic Matrix Factorization](http://web.cs.ucla.edu/~yzsun/classes/2014Spring_CS7280/Papers/Recommendation/paper_cikm08_sorec_hao.pdf) | [Sorec](https://github.com/rlqja1107/Kaist_Recommender_System/tree/master/Recommender_System/Sorec) |    
 | - | [Recommender Systems with Social Regularization](https://dennyzhou.github.io/papers/RSR.pdf) | |    
 
+
 ---  
 #### Graph  
 | Term(2021) | Paper | Implementation |  
@@ -39,7 +41,9 @@ Construct the Recommender Systems Using Graph Embedding Methodology
 | - | [DeepWalk:Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf) | |  
 | - | [node2vec:Scalable Feature Learning for Networks](https://arxiv.org/pdf/1607.00653.pdf) | [Node2Vec](https://github.com/rlqja1107/Recommender_System/tree/master/Graph/node2vec) |  
 | - | [Semi-Supervised Classification With Graph Convolutional Networks](https://arxiv.org/abs/1809.10341) | [GCN](https://github.com/rlqja1107/Recommender_System/tree/master/Graph/GCN) |  
-| - | [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf) | |  
+| - | [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf) | |   
+| 02-05 | [Large Scale Information Network Embedding](https://arxiv.org/pdf/1503.03578.pdf) | [LINE](https://github.com/rlqja1107/Recommender_System/tree/master/Graph/LINE) |   
+| - | [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) | |   
 
 
 ## Library Or Useful Resource  
