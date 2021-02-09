@@ -1,7 +1,7 @@
 # Kaist Internship Program     
-<img width="520" alt="DSAIL" src="https://user-images.githubusercontent.com/55014424/107319695-ad71c680-6ae2-11eb-8d78-3fcc3bfdce95.png">   
-## Laborartory  
-* Data Science and Artificial Intelligence Laboratory [DSAIL](http://dsail.kaist.ac.kr)  
+<img width="520" alt="DSAIL" src="https://user-images.githubusercontent.com/55014424/107319695-ad71c680-6ae2-11eb-8d78-3fcc3bfdce95.png">     
+## Laborartory   
+* Data Science and Artificial Intelligence Laboratory [DSAIL](http://dsail.kaist.ac.kr)   
 ## Duration  
 2020-12-28~202.2.19
 ## Subject  
