@@ -1,5 +1,6 @@
 # Kaist Internship Program        
-
+## Own Logo    
+![DSAIL](https://user-images.githubusercontent.com/55014424/107321419-d34c9a80-6ae5-11eb-98ec-e0484a8341c4.png)  
 ## Laborartory    
 * Data Science and Artificial Intelligence Laboratory [DSAIL](http://dsail.kaist.ac.kr)    
 ## Duration   
@@ -12,7 +13,7 @@ Construct the Recommender Systems Using Graph Embedding Methodology
 ## Process    
 * Every Friday Seminar at 10:00 a.m    
 
-* KiBum Presentation Content : [CML(2021-01-15)](https://github.com/rlqja1107/Kaist_Recommender_System/blob/master/Recommender_System/CML_%EA%B9%80%EA%B8%B0%EB%B2%94.pptx), [LINE](https://arxiv.org/pdf/1503.03578.pdf)    
+* KiBum Presentation Content : [CML(2021-01-15)](https://github.com/rlqja1107/Kaist_Recommender_System/blob/master/Recommender_System/CML_%EA%B9%80%EA%B8%B0%EB%B2%94.pptx), [LINE(2021-02-05)](https://arxiv.org/pdf/1503.03578.pdf)    
 
 
 #### Recommendation System  
