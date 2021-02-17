@@ -45,7 +45,7 @@ Construct the Recommender Systems Using Graph Embedding Methodology
 | - | [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf) | |   
 | 02-05 | [Large Scale Information Network Embedding](https://arxiv.org/pdf/1503.03578.pdf) | [LINE](https://github.com/rlqja1107/Recommender_System/tree/master/Graph/LINE) |   
 | - | [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) | |   
-| 02-15 | [Deep Graph Informax](https://openreview.net/pdf?id=SJU4ayYgl) | [DGI](https://openreview.net/pdf?id=SJU4ayYgl) |  
+| 02-15 | [Deep Graph Informax](https://openreview.net/pdf?id=SJU4ayYgl) | [DGI](https://github.com/rlqja1107/Recommender_System/tree/master/Graph/DGI) |  
 | - | [Inductive Representation Learning on Large Graphs](https://arxiv.org/pdf/1706.02216.pdf) | |  
 | - | [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf) | |  
 | - | [Variational Graph Auto-Encoders](https://arxiv.org/pdf/1611.07308.pdf) | |   
