@@ -1,2 +1,6 @@
 .ipynb_checkpoints
 __pycache__
+GCNCLASS.py
+GCN_Exec.py
+line_citeseer
+cora
