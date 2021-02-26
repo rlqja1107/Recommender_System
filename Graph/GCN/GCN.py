@@ -1,5 +1,5 @@
 import sys
-sys.path.append('..')
+sys.path.append('..') 
 from dataset import load_data
 import torch
 import numpy as np
