@@ -12,3 +12,4 @@ config={'r':10,
 graph=node2vec(config)
 # vector : embedding vector
 vector=node2vec.run(graph)
+ 
