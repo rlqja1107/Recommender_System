@@ -4,3 +4,7 @@ GCN/GCNCLASS.py
 GCN/GCN_Exec.py
 LINE/line_citeseer
 LINE/cora
+node2vec/Prediction.py
+node2vec/cora.emb
+LINE/__init__.py
+__init__.py
